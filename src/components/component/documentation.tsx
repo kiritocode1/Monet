@@ -24,7 +24,7 @@ export function MainDocumentation() {
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           Vertical scaling involves increasing the resources (e.g., CPU, memory, storage) of a single server to handle
           more load. This is a simple and straightforward approach, but it has a limit based on the maximum capacity of
-          the server.
+          the server.   
         </p>
         <h3 className="text-xl font-semibold mb-2">Horizontal Scaling</h3>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
