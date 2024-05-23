@@ -27,4 +27,4 @@ app.post('/hono', async (c) => {
 
 
 export const GET = handle(app);
-export default app as never;
+// export default app as never;
