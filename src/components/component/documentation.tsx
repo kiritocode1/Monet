@@ -2,9 +2,9 @@
 export function MainDocumentation() {
   return (
     <main className="container mx-auto px-4 md:px-6 py-12 md:py-16 lg:py-20">
-      <h1 className="text-4xl font-bold mb-8 md:mb-10 lg:mb-12">Building Scalable Web Applications</h1>
+      <h1 className="text-4xl font-bold mb-8 md:mb-10 lg:mb-12">MONET</h1>
       <section className="mb-12 md:mb-16 lg:mb-20">
-        <h2 className="text-2xl font-bold mb-4">Architectural Patterns</h2>
+
         <h3 className="text-xl font-semibold mb-2">Monolithic Architecture</h3>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           A monolithic architecture is a traditional approach where the entire application is built as a single,
@@ -37,7 +37,7 @@ export function MainDocumentation() {
         <h2 className="text-2xl font-bold mb-4">Caching Strategies</h2>
         <h3 className="text-xl font-semibold mb-2">Client-side Caching</h3>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          Client-side caching involves storing data on the user's device, such as in the browser's cache or local
+          Client-side caching involves storing data on the user device, such as in the browser  cache or local
           storage. This can improve performance by reducing the number of requests made to the server, especially for
           frequently accessed data.
         </p>
