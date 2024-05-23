@@ -8,7 +8,7 @@ import { handle } from "hono/vercel"
 export const runtime = "edge";
 
 
-export const app = new Hono().basePath("/api");
+ const app = new Hono().basePath("/api");
 
 
 app.get('/hono', async (c) => {
@@ -27,4 +27,4 @@ app.post('/hono', async (c) => {
 
 
 export const GET = handle(app);
-// export default app as never;
+export default app as never;
